@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  border-bottom: 1px solid black;
+}
+
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .navbar .logo img {
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+  border-radius: 10% 30% 50% 70%;
+  /* border-radius: 50% 20% / 10% 40%; */
+}
+
+header .navbar ul {
+  display: flex;
+  gap: 20px;
+}
+
+header .navbar ul li {
+  padding: 20px;
+}
+
+header .navbar ul li a {
+  color: black;
+  font-size: 20px;
+}
+
+.card img {
+  height: 200px;
+  width: 200px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.prodetails {
+  padding: 10px;
+}
+
+.cart-icon {
+  position: relative;
+}
+
+.cart-icon .cart-badge {
+  position: absolute;
+  top: -10px;
+  font-size: 15px;
+  left: 18px;
+  color: white;
+  background: red;
+  padding: 2px 5px;
+  border-radius: 50%;
+
+}
+
+.cart-container {
+  padding: 50px;
+}
+
+.cart-container .cart-item {
+  position: relative;
+  height: 100%;
+}
+
+.cart-container .cart-item img {
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
+}
+
+.quantity-btn {
+  height: 20px;
+  width: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.remove-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
